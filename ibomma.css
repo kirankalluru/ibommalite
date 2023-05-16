@@ -129,7 +129,7 @@ form {
 @media only screen and (max-width:500px)
 {
     .logo{
-        margin-left: 120px;
+        margin-left: 140px;
     }
     .navitems {
        display: none;  
@@ -143,6 +143,6 @@ form {
         display: flex; 
         flex-wrap: wrap;
         flex-direction: column;
-        margin-left: 40px;
+        margin-left: 60px;
     }
 }
