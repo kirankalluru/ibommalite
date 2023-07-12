@@ -7,6 +7,8 @@
     <title>ibomma</title>
     <link rel="stylesheet" href="./ibomma.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="./ibomma.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -14,14 +16,21 @@
             <img src="./ibomma requities/ibomma logo.svg" alt="logo">
         </div></nav>
         <nav class="nav2">
+            <i class="fa-solid fa-bars" style="color: #ffffff;" id="menu" onclick="myFunction()"></i>
+            <div class="menu-options">
+                <li>home</li>
+                <li>login</li>
+                <li>sign up</li>
+                <li>dashboard</li>
+            </div>     
         <div class="navitems">
             <a href="#"><i class="fa-solid fa-house"></i>about</a>
             <a href="#"><i class="fa-solid fa-bug"></i>bug</a>
             <a href="#"><i class="fa-solid fa-phone"></i>contact</a>
             <a href="#"><i class="fa-sharp fa-regular fa-flag"></i>report</a>
             <form action="#" class="forms">
-                <input type="search" class="search-data" placeholder="search">
-                <button type="submit"<i class="fas fa-search"></i></button>
+                <input type="search" id="search-data" placeholder="search">
+                <button onclick="kiran()" type="submit"<i class="fas fa-search"></i></button>
             </form>
 
         </div>
